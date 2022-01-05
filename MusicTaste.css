@@ -1,0 +1,70 @@
+
+
+@import url(wallpapersden.com_k-cool-2020-art_1920x1080.jpg) ;
+
+
+a {
+    text-decoration: none;
+    border: 0.9px solid rgb(0, 132, 255);
+    color: rgb(255, 255, 255);
+    
+    padding: 10px;
+    border-radius: 15px;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    transition: 1.5s;
+    font-size: 20px;
+  }
+
+  a:hover {
+    box-shadow: 0 5px 50px 0  #55dfdc inset,0 5px 50px 0  #55dfdc   ;
+  }
+  
+  body
+  { 
+    background-image: url("wallpapersden.com_k-cool-2020-art_1920x1080.jpg"); 
+    font-family: 'Varela Round', sans-serif;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+ 
+  }
+
+
+
+
+.text {
+  position: absolute;
+  color: whitesmoke;
+
+  width: 600px;
+  margin: 0 auto;
+  text-align: left;
+  font-family: 'Varela Round', sans-serif;
+  text-align: center;
+  
+ 
+  }
+
+.container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    height: 215px;
+    margin-top: -180px;
+    width: 600px;
+    margin-left : -290px; 
+    backdrop-filter: blur(9px);
+  
+
+  }
+  
+.restart {
+  font-size: 16px  ;
+
+ }
